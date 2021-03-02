@@ -9,7 +9,7 @@ for (var i = 0; i < invitedList.length; i++){
     invited = true;
   }
 }
-if (invited = true){
+if (invited ){
   alert("You are in, let's party")
 } else {
   alert("Sorry, your name it's not in the list, bye bye")
