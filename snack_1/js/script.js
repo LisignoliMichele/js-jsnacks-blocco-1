@@ -1,6 +1,6 @@
 // L’utente inserisce due numeri in successione, con due prompt.
-var numberOne = prompt("enter a number");
-var numberTwo = prompt("enter another number");
+var numberOne = parseInt(prompt("enter a number"));
+var numberTwo = parseInt(prompt("enter another number"));
 // Il software stampa il maggiore.
 if (numberOne > numberTwo) {
   alert(numberOne +' the first number it\'s the bigger one' );
