@@ -5,7 +5,7 @@ var userName = prompt("What's your name?")
 var invited = false;
 // comunica all'utente se può partecipare o no alla festa.
 for (var i = 0; i < invitedList.length; i++){
-  if (invitedList[i].toLowerCase() == userName.toLowerCase() ]) {
+  if (invitedList[i].toLowerCase() == userName.toLowerCase()) {
     invited = true;
   }
 }
